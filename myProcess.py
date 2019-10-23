@@ -5,7 +5,7 @@ from multiprocessing import Process
 
 class MyProcess(Process):
     def __init__(self,value):
-        super().__init__() # 加载父类__init__
+        super().__init__() # 加载父类__init__构造函数
         self.value = value
 
     def f1(self):
